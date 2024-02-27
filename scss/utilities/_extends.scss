@@ -1,0 +1,14 @@
+*{
+    padding-top: 4rem!important;
+    margin: 0;
+}
+
+.p-link{
+    color: rgb(241, 249, 255);
+    text-decoration: none;
+    &:hover{
+        text-decoration: underline;
+    }
+}
+
+

@@ -1,0 +1,77 @@
+@import "../base/variables";
+
+.ftcontainer{
+    display: flex;
+    justify-content: space-around;
+}
+
+.titulo-footer{
+    font-size: 20px;
+}
+
+.footersocial-link{
+    padding-right: 20px;
+    text-decoration: none;
+    color: #fff;
+    font-size: 1,5rem;
+    &:hover{
+        color: rgb(0, 0, 0);
+        transition: color 0.3s ease;
+        text-decoration: none;
+    }
+}
+
+
+
+.ftli{
+    padding-bottom: .75rem;
+    list-style: none; 
+    text-decoration: none;
+    &:hover{
+        color: rgb(240, 248, 255);
+    }
+}
+
+.social-icons{
+    display: flex;
+    flex-direction: row;
+    font-size: bold;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    list-style: none;
+    &:hover{
+        color: rgb(240, 248, 255);
+    }
+}
+
+.derechos-footer{
+    font-size: .65rem;
+    color: #fff;
+}
+
+.border-ft{
+    border-right: 1px solid rgb(0, 0, 0);
+    padding-right: 2rem;
+}
+
+.navbar-footer{
+    color: #fff;
+    font-size: 1rem;
+    font-weight: small;
+    letter-spacing: 2px;
+    transition: color 0.3s ease;
+    text-align: center;
+}
+
+.link-footer{
+    color: #fff;
+    transition: color 0.3s ease;
+    text-decoration: none;
+    color: #fff;
+    list-style: none;
+    &:hover{
+        color: rgb(0, 0, 0);
+        list-style: none;
+        text-decoration: none!important;
+    }
+}

@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>La Garse</title>
+    <!-- Link de la fuente de Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap" rel="stylesheet">
+    <!-- Link del logo de encabezado -->
+    <link rel="icon" href="../img/logo.png" type="image/x-icon">
+    <!-- Link de página de iconos de redes -->
+    <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/2.1.0/uicons-brands/css/uicons-brands.css'>
+    <!-- Link de bootstrap -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
+    <!-- Link de CSS -->
+    <link rel="stylesheet" href="../css/styles.css">
+    <!-- SEO -->
+
+    <!-- 18 palabras meta -->
+    <meta name="keywords" content="Arte contemporáneo, Galería de arte, Exposiciones de arte, Obras maestras, Arte moderno, Pinturas famosas, Esculturas emblemáticas, Arte clásico, Artistas reconocidos, Colecciones de arte, Historia del arte, Visitas guiadas, Arte abstracto, Arte figurativo, Arte urbano, Eventos culturales, Arte latinoamericano, Talleres de arte">
+
+    <!-- Meta de 180 caracteres -->
+    <meta name="description" content="Explora siglos de creatividad en nuestro museo de arte. Obras maestras, exposiciones temporales y eventos especiales te esperan.">
+
+    <!-- Meta telefono -->
+    <meta name="telephone" content="+54 9 3512465321">
+
+    <!-- Meta autor -->
+    <meta name="author" content="Alejandro José Vargas">
+
+    <!-- Lenguaje -->
+    <meta name="language" content="Spanish">
+
+    <!-- Meta idioma -->
+    <meta name="language" content="Spanish">
+
+    <!-- Meta lugar -->
+    <meta name="geo.placename" content="Argentina">
+</head>
+<body>
+    <header>
+        <!-- Inicio de header -->
+        <nav class="navbar navbar-light fixed-top bg-dark navbar-expand-lg">
+            <div class="container">
+                <a href="./index.html"><img src="../img/logo.png" class="logo-header" height="40px" alt="logo-arte"></a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarOpen">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarOpen">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="../index.html">Inicio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="../pages/nosotros.html">Nosotros</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="../pages/artistas.html">Artistas</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="../pages/eventos.html">Eventos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="../pages/obras.html">Obras</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+<!-- Fin del header -->
+    </header>
+    <main class="main">
+        <h1 class="main-h">Danos tu opinion</h2>
+        <p class="main-p">¡Gracias por visitar nuestro museo! Nos encantaría conocer tu opinión para mejorar nuestros servicios. Por favor, tómate un momento para completar este formulario.</p>
+
+    <form action="#" method="post">
+    <label for="impresion" class="texto-opinion">1. ¿Cuál es tu impresión general de tu visita al museo?</label><br>
+    <select name="impresion" id="impresion">
+        <option value="excelente">Excelente</option>
+        <option value="bueno">Bueno</option>
+        <option value="regular">Regular</option>
+        <option value="malo">Malo</option>
+    </select><br><br>
+
+    <label for="aspecto" class="texto-opinion">2. ¿Qué aspecto del museo disfrutaste más?</label><br>
+    <input type="text" id="aspecto" name="aspecto"><br><br>
+
+    <label for="decepcion" class="texto-opinion">3. ¿Hubo algo que te decepcionó o que crees que podría mejorarse?</label><br>
+    <textarea id="decepcion" name="decepcion" rows="4" cols="50"></textarea><br><br>
+
+    <label for="accesibilidad" class="texto-opinion">4. ¿Cómo calificarías la accesibilidad del museo?</label><br>
+    <select name="accesibilidad" id="accesibilidad">
+        <option value="excelente">Excelente</option>
+        <option value="buena">Buena</option>
+        <option value="regular">Regular</option>
+        <option value="mala">Mala</option>
+    </select><br><br>
+
+    <label for="sugerencias" class="texto-opinion">5. ¿Qué sugerencias tienes para mejorar la experiencia del visitante en nuestro museo?</label><br>
+    <textarea id="sugerencias" name="sugerencias" rows="4" cols="50"></textarea><br><br>
+
+    <label for="volver" class="texto-opinion">6. ¿Volverías a visitar nuestro museo en el futuro?</label><br>
+    <input type="radio" id="si" name="volver" value="si">
+    <label for="si" class="texto-opinion">Sí</label>
+    <input type="radio" id="no" name="volver" value="no">
+    <label for="no" class="texto-opinion">No</label>
+    <input type="radio" id="talvez" name="volver" value="talvez">
+    <label for="talvez" class="texto-opinion">Tal vez</label><br><br>
+
+    <label for="recomendar" class="texto-opinion">7. ¿Recomendarías nuestro museo a amigos o familiares?</label><br>
+    <input type="radio" id="recomendar_si" name="recomendar" value="si">
+    <label for="recomendar_si" class="texto-opinion">Sí</label>
+    <input type="radio" id="recomendar_no" name="recomendar" value="no">
+    <label for="recomendar_no" class="texto-opinion">No</label>
+    <input type="radio" id="recomendar_talvez" name="recomendar" value="talvez">
+    <label for="recomendar_talvez" class="texto-opinion">Tal vez</label><br><br>
+
+    <input type="submit" value="Enviar">
+</form>
+    </main>
+        <footer class="bg-dark navbar-footer">
+<!-- Inicio del footer -->
+        <div class="ftcontainer">
+            <div class="footer-column">
+                <h2 class="titulo-footer">Sobre La Garse</h2>
+                <ul class="ftli">
+                    <li>
+                        <a href="../pages/nosotros.html" class="link-footer">La Garse y su historia en el mundo</a>
+                    </li>
+                    <li>
+                        <a href="../pages/reglas.html" class="link-footer">Reglas</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="footer-column">
+                <h2 class="titulo-footer">Nuestros sitios</h2>
+                <ul class="ftli">
+                    <li>
+                        <a href="../pages/donacion.html" class="link-footer">Donar</a>
+                    </li>
+                    <li>
+                        <a href="#" class="link-footer">Danos tu opinion</a>
+                    </li>
+                    <li>
+                        <a href="../pages/boletos.html" class="link-footer">Compra boleto</a>
+                    </li>
+                    <li>
+                        <a href="#" class="link-footer">Contacto</a>
+                    </li>
+                    <li>
+                        <a href="../pages/faq.html" class="link-footer">FAQ</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="footer-column">
+                <h2 class="titulo-footer">Siguenos en nuestras redes</h2>
+                <ul class="social-icons">
+                    <li><a href="#" class="footersocial-link"><i class="fi fi-brands-instagram"></i></a></li>
+                    <li><a href="#" class="footersocial-link"><i class="fi fi-brands-facebook"></i></a></li>
+                    <li><a href="#" class="footersocial-link"><i class="fi fi-brands-twitter"></i></a></li>
+                    <li><a href="#" class="footersocial-link"><i class="fi fi-brands-youtube"></i></a></li>
+                </ul>   
+            </div>
+        </div>
+        <p class="derechos-footer margin-zero">Derechos de autor &copy; 2024 - Todos los derechos reservados</p>
+        <!-- Fin del footer -->
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.min.js"></script>
+</body>
+
+</html>

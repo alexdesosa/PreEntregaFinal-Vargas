@@ -1,0 +1,274 @@
+@import "../components/font";
+@import "../base/variables";
+
+.main{
+    font-size: large;
+    padding: 5rem;
+    background-color: $colorPrincipal;;
+}
+
+.carousel-item{
+  height: 100vh;
+  min-height: 300px;
+}
+
+.carousel-item img{
+  background-size: cover;
+}
+
+.carousel-caption{
+  bottom: 40%;
+}
+
+.carousel-caption h5{
+  font-size: 45px;
+  text-transform: uppercase;
+  margin-bottom: 25px;
+  letter-spacing: 1.7px;
+}
+
+.carousel-caption p{
+  width: 100%;
+  margin: auto;
+  font-size: 18px;
+}
+
+.navbar-light .navbar-brand{
+  color: #fff;
+  font-size: 25px;
+  font-weight: bold;
+  letter-spacing: 2px;
+  transition: color 0.3s ease;
+}
+
+.navbar-nav .nav-item .nav-link{
+  color: #fff;
+  transition: color 0.3s ease;
+}
+
+.navbar-toggler{
+  background: #fff;
+  outline: none !important;
+  font-size: 18px;
+  line-height: 0.3;
+  padding: 1px 5px;
+}
+
+.navbar-nav{
+  text-align: center;
+}
+
+.nav-link{
+  padding: 5px;
+}
+
+.margin-zero{
+  margin-bottom: 0px!important;
+}
+
+// Corte
+
+// .card {
+//   border: 1px solid #ccc;
+//   border-radius: 5px;
+//   overflow: hidden;
+//   width: 300px; /* Ancho de la tarjeta */
+//   margin: 10px;
+// }
+
+// .card img {
+//   width: 100%; /* La imagen ocupa todo el ancho de la tarjeta */
+//   height: auto; /* Mantiene la proporción de aspecto */
+// }
+
+// .card-body {
+//   padding: 10px;
+// }
+
+// .card-title {
+//   font-size: 18px;
+//   margin-bottom: 5px;
+// }
+
+// .card-text {
+//   font-size: 14px;
+// }
+
+// Una para que esten una arriba de otra (mobile)
+
+.card {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  overflow: hidden;
+  width: 90%; /* Ancho de la tarjeta en dispositivos móviles */
+  max-width: 300px; /* Ancho máximo de la tarjeta */
+  margin: 10px auto; /* Centrar la tarjeta */
+}
+
+.card img {
+  width: 100%; /* La imagen ocupa todo el ancho de la tarjeta */
+  height: auto; /* Mantiene la proporción de aspecto */
+}
+
+.card-body {
+  padding: 10px;
+}
+
+.card-title {
+  font-size: 18px;
+  margin-bottom: 5px;
+}
+
+.card-text {
+  font-size: 14px;
+}
+
+// Para que esten una al lado de otra
+.container {
+  display: flex; /* Usar flexbox para alinear las tarjetas */
+  flex-wrap: wrap; /* Permitir que las tarjetas se envuelvan a la siguiente línea si no caben todas en una sola línea */
+  justify-content: space-between; /* Distribuir el espacio entre las tarjetas */
+}
+
+.card {
+  width: calc(33.33% - 20px); /* Calcula el ancho de cada tarjeta (33.33% del ancho del contenedor menos el espacio entre tarjetas) */
+  margin-bottom: 20px; /* Espacio entre tarjetas */
+  box-sizing: border-box; /* Incluir el borde y el relleno en el cálculo del ancho */
+}
+
+// Sobre FAQ
+
+.faq {
+  margin-bottom: 20px;
+}
+
+.question {
+  cursor: pointer;
+  background-color: #f4f4f4;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.answer {
+  display: none;
+  padding: 10px;
+}
+
+// Sobre artistas y las fotos
+
+.profile-card {
+  text-align: center;
+}
+.profile-picture {
+  border-radius: 50%; /* Hace que la imagen sea circular */
+  overflow: hidden; /* Oculta cualquier parte de la imagen fuera del círculo */
+  width: 150px; /* Ancho de la imagen */
+  height: 150px; /* Altura de la imagen */
+  margin: 0 auto; /* Centra la imagen horizontalmente */
+}
+.profile-picture img {
+  width: 100%; /* Asegura que la imagen se ajuste al tamaño del contenedor */
+  height: auto; /* Mantiene la relación de aspecto de la imagen */
+  display: block; /* Elimina el espacio adicional debajo de la imagen */
+}
+.profile-description {
+  margin-top: 10px; /* Espacio entre la imagen y la descripción */
+}
+.profile-description h2 {
+  font-size: 20px; /* Tamaño del nombre */
+  margin-bottom: 5px; /* Espacio entre el nombre y la descripción */
+}
+.profile-description p {
+  font-size: 16px; /* Tamaño de la descripción */
+}
+
+
+// Boton de donacion
+
+.container-donation {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #000000;
+}
+
+.text-donation{
+  font-size: bold;
+  color: rgb(214, 214, 214);
+}
+
+.h1-donation{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.image {
+  width: 100%;
+  margin-bottom: 20px;
+}
+.donate-button {
+  display: block;
+  width: 200px;
+  padding: 10px;
+  margin: 20px auto;
+  background-color: #4b4b4b;
+  color: #fff;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 5px;
+}
+.donate-button:hover {
+  background-color: #5a5555;
+  text-decoration: none;
+  color: #fff;
+}
+
+// Comprar los boletos
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+  text-align: center;
+}
+.container-ticket {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #000000;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+p {
+  color: #666;
+  line-height: 1.6;
+}
+.ticket-image {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 20px;
+}
+.buy-button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #4b4b4b;
+  color: #fff;
+  font-size: 16px;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+.buy-button:hover {
+  background-color: #5a5555;
+  text-decoration: none;
+  color: #fff;
+}
+
+.p-ticket{
+  font-size: bold;
+  color: rgb(214, 214, 214);
+  list-style: none;
+}
